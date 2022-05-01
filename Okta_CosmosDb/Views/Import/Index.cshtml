@@ -1,0 +1,9 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@(ViewData["Title"] = "Import Clients")
+
+<form method="POST" asp-controller="Import" asp-action="Upload" enctype="multipart/form-data">
+    <input type="file" name="csvFile" class="btn-outline-primary btn" />
+    <input type="submit" class="btn btn-primary" value="Import" />
+</form>
