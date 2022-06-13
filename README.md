@@ -1,4 +1,4 @@
-# Seure PII using Azure Cosmos DB
+# Secure PII using Azure Cosmos DB
 
 This repository shows you how to build a web application with ASP.NET Core with a Cosmos DB backend and secure any PII that you may have.  Please read [Secure PII In Azure Cosmos DB][blog] to see how it was created.
 
